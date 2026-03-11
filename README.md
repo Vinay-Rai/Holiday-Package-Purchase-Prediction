@@ -64,14 +64,15 @@ tuning was applied to further improve its performance.
 
 ## Model Performance Comparison
 
-  Model                 Accuracy   Precision   Recall   F1 Score   ROC-AUC
-  --------------------- ---------- ----------- -------- ---------- ---------
-  Logistic Regression   0.8354     0.6829      0.2932   0.8078     0.6301
-  Decision Tree         0.9192     0.8077      0.7696   0.9185     0.8626
-  Random Forest         0.9274     0.9545      0.6597   0.9221     0.8260
-  Gradient Boosting     0.8589     0.7732      0.3927   0.8398     0.6824
-  AdaBoost              0.8354     0.6630      0.3194   0.8115     0.6400
-  XGBoost               0.9356     0.9507      0.7068   0.9318     0.8490
+
+| Model | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|------|----------|-----------|--------|----------|---------|
+| Logistic Regression | 0.8354 | 0.6829 | 0.2932 | 0.8078 | 0.6301 |
+| Decision Tree | 0.9192 | 0.8077 | 0.7696 | 0.9185 | 0.8626 |
+| Random Forest | 0.9274 | 0.9545 | 0.6597 | 0.9221 | 0.8260 |
+| Gradient Boosting | 0.8589 | 0.7732 | 0.3927 | 0.8398 | 0.6824 |
+| AdaBoost | 0.8354 | 0.6630 | 0.3194 | 0.8115 | 0.6400 |
+| **XGBoost** | **0.9356** | **0.9507** | **0.7068** | **0.9318** | **0.8490** |
 
 Among all models, XGBoost performed the best with strong accuracy and
 overall performance.
@@ -80,10 +81,11 @@ overall performance.
 
 ## XGBoost Performance After Hyperparameter Tuning
 
-  Dataset        Accuracy   Precision   Recall   F1 Score   ROC-AUC
-  -------------- ---------- ----------- -------- ---------- ---------
-  Training Set   1.0000     1.0000      1.0000   1.0000     1.0000
-  Test Set       0.9509     0.9554      0.7853   0.9490     0.8882
+
+| Dataset | Accuracy | Precision | Recall | F1 Score | ROC AUC |
+|--------|----------|-----------|--------|----------|---------|
+| Training Set | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
+| Test Set | 0.9509 | 0.9554 | 0.7853 | 0.9490 | 0.8882 |
 
 After hyperparameter tuning, XGBoost achieved **95.09% accuracy** on the
 test dataset.
